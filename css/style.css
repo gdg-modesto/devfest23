@@ -9,7 +9,7 @@
 /* NavBar */
   .navbar {
     width: 100%;
-    background-color: black;
+  
   }
 
   .brand {
@@ -78,6 +78,8 @@
 .keynote-speaker-img{
   border-radius: 10px 10px 0px 0px;
   background:lightgray 50% / cover no-repeat;
+  width: 80%;
+  height: 80%;
 }
 
 .keynote-speaker-bar{
