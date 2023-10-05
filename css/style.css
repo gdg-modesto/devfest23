@@ -1,139 +1,166 @@
-@import url('https://fonts.googleapis.com/css?family=M PLUS Rounded 1c');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 * {
-    font-family: 'M Plus Rounded 1c', sans-serif;
-  }
+    font-family: 'Roboto', sans-serif;
+}
+.gradient-bar {
+  background: linear-gradient(to top left, #f9ab00, rgba(255, 153, 150, 0), #ea4335), linear-gradient(to top right, #4285f4, rgba(255, 153, 150, 0), #34a853);
+  height: 20px;
+  padding: 0;
+ }
 
-
-/* NavBar */
-  .navbar {
-    width: 100%;
+/*NavBar*/
+.navbar {
+  background-color: white;
+}
+.brand {
+  /* width: 85px;
+  height: 19px; */
   
-  }
-
-  .brand {
-    width: 85px;
-    height: 19px;
-    flex-shrink: 0; 
-
-  }
-
-  body {
-
-  }
+  width: 150px;
+  flex-shrink: 0;
+}
 
 
-
-
-/* Main Info Section */
+/*Info Section*/
 .info {
   background: linear-gradient(136deg, #000 45.86%, rgba(0, 0, 0, 0.00) 100.29%);
   color: white;
-  padding: 5%;
-  margin-bottom: 1%;
+  padding: 2%;
 }
-
-.devfest-logo{
+.devfest-img {
   width: 200px;
   height: 100px;
 }
 
-.devfest-img{
-  width: 200px;
-  height: 100px;
+
+/*Keynote Speaker Section*/
+.speaker-grid {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
-.button {
-  color: white;
-  padding: 15px 32px;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-  background: #0075FF;
+.card {
+  width: 250px;
 }
-
-
-
-/* Keynote Speaker Section */
-
-
-.keynote{
-
-
+.speakerMain-image {
+  background-color: #5f6368;
+  height: 248px;
+  width: 18rem;
+  object-fit: cover;
+  object-position: center top
 }
-.keynote-speaker-card {
-
-}
-
-.keynote-speaker-title{
-  color: #000;
-  font-family: Rounded Mplus 1c;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 800;
-}
-
-.keynote-speaker-img{
-  border-radius: 10px 10px 0px 0px;
-  background:lightgray 50% / cover no-repeat;
-  width: 80%;
-  height: 80%;
-}
-
-.keynote-speaker-bar{
-  background: #F8BB17;
+.keynote-speaker-bar {
+  background: #f9ab00;
   height: 8px;
-
+  padding: 0;
+}
+.card-body { 
+  height: 200px;
+  background: #fde293;
+}
+.card-title {
+  font-weight: bold;
 }
 
-.keynote-speaker-text{
-  border-radius: 10px;
-  background: rgba(248, 187, 23, 0.20);
+/*About Section*/
+.about-bar-green {
+  background: #34a853;
+  height: 8px;
+  padding: 0;
+}
+.about-green {
+  height: 300px;
+  background: #81c995;
+}
+.about-bar-blue {
+  background: #4285f4;
+  height: 8px;
+  padding: 0;
+}
+.about-blue {
+  height: 300px;
+  background: #8ab4f8;
+}
+.about-bar-red {
+  background: #ea4335;
+  height: 8px;
+  padding: 0;
+}
+.about-red {
+  height: 300px;
+  background: #f28b82;
+}
+.about-bar-yellow {
+  background: #f9ab00;
+  height: 8px;
+  padding: 0;
+}
+.about-yellow {
+  height: 300px;
+  background: #fde293;
+}
+
+/*Sponsors Section*/
+.sponsor-grid {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 
+/*Footer*/
+footer {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+ }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin {
+  background: #4285f4;
+  color: white;
+}
+.fa-instagram {
+  background: #f9ab00;
+  color: white;
+}
+.fa-facebook {
+  /* background: #3B5998; */
+  background: #34a853;
+  color: white;
+}
+.fa-youtube {
+  background: #ea4335;
+  color: white;
+}
 
-  footer {
-    width: 100%;
-    text-align: center;
+
+/*Media Queries*/
+@media (max-width: 576px) {
+  .brand {
+    width: 100px;
   }
-
- .fa {
-    padding: 20px;
+  .sponsor-image {
+    width: 95%;
+  }
+  .fa {
+    padding: 10px;
     font-size: 30px;
-    width: 70px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
- }
-
- .fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
   }
-  
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
+}
