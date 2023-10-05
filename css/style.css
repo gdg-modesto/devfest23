@@ -3,27 +3,19 @@
 
 * {
     font-family: 'M Plus Rounded 1c', sans-serif;
-  }
-
+}
+.gradient-bar {
+  background: linear-gradient(to top left, #f9ab00, rgba(255, 153, 150, 0), #ea4335), linear-gradient(to top right, #4285f4, rgba(255, 153, 150, 0), #34a853);
+  height: 20px;
+  padding: 0;
+ }
 
 /* NavBar */
-  .navbar {
-    width: 100%;
-  
-  }
-
-  .brand {
-    width: 85px;
-    height: 19px;
-    flex-shrink: 0; 
-
-  }
-
-  body {
-
-  }
-
-
+.brand {
+  width: 85px;
+  height: 19px;
+  flex-shrink: 0; 
+}
 
 
 /* Main Info Section */
@@ -33,107 +25,92 @@
   padding: 5%;
   margin-bottom: 1%;
 }
-
-.devfest-logo{
+.devfest-logo {
   width: 200px;
   height: 100px;
 }
-
-.devfest-img{
+.devfest-img {
   width: 200px;
   height: 100px;
 }
-
-.button {
-  color: white;
-  padding: 15px 32px;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-  background: #0075FF;
-}
-
 
 
 /* Keynote Speaker Section */
-
-
-.keynote{
-
-
+.speaker-grid {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.keynote-speaker-card {
-
+.card {
+  width: 250px;
 }
-
-.keynote-speaker-title{
-  color: #000;
-  font-family: Rounded Mplus 1c;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 800;
+.speakerMain-image {
+  background-color: #5f6368;
+  height: 248px;
+  width: 18rem;
+  object-fit: cover;
+  object-position: center top
 }
-
-.keynote-speaker-img{
-  border-radius: 10px 10px 0px 0px;
-  background:lightgray 50% / cover no-repeat;
-  width: 80%;
-  height: 80%;
-}
-
-.keynote-speaker-bar{
-  background: #F8BB17;
+.keynote-speaker-bar {
+  background: #f9ab00;
   height: 8px;
-
+  padding: 0;
+}
+.card-body { 
+  height: 200px;
+  background: #fde293;
+}
+.card-title {
+  font-weight: bold;
 }
 
-.keynote-speaker-text{
-  border-radius: 10px;
-  background: rgba(248, 187, 23, 0.20);
+
+/*Sponsors Section*/
+.sponsor-grid {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 
-
-  footer {
-    width: 100%;
-    text-align: center;
-  }
-
- .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 70px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+/* Footer */
+footer {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
  }
-
- .fa:hover {
-    opacity: 0.7;
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
-
-.fa-facebook {
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin {
+  background: #4285f4;
+  color: white;
+}
+.fa-youtube {
+  background: #ea4335;
+  color: white;
+}
+.fa-instagram {
+  background: #f9ab00;
+  color: white;
+}
+/* .fa-facebook {
   background: #3B5998;
   color: white;
-}
+} */
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
+/* Media Queries */
+@media (max-width: 576px) {
+  .sponsor-image {
+      width: 95%;
+  }
 }
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }

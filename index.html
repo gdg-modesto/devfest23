@@ -42,7 +42,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto fw-bold">
             <li><a class="nav-link active" href="index.html">Home</a></li>
-            <li><a class="nav-link" href="about.html">About</a></li>
+            <!-- <li><a class="nav-link" href="about.html">About</a></li> -->
+            <li>
+              <a
+                type="button"
+                target="_blank"
+                class="btn btn-primary fw-bold"
+                href="https://www.eventbrite.com/e/devfest-central-valley-2023-tickets-711779450497"
+                >Register</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -56,16 +65,20 @@
             src="img/devfestlogo.png"
             alt="DevFest Modesto logo"
           />
-          <h1 class="mt-4 fw-bold">
-            Modesto Devfest Conference 2023 @ MJC College on Oct 28
-          </h1>
-          <a
-            target="_blank"
-            href="https://www.eventbrite.com/e/devfest-central-valley-2023-tickets-711779450497?aff=oddtdtcreator"
-            class="button"
-            >Register</a
-          >
+          <h1 class="mt-4 fw-bold">DevFest Central Valley</h1>
+          <h2>October 28, 2023</h2>
+          <h2>Modesto Junior College<br />East Campus</h2>
 
+          <a
+            type="button"
+            target="_blank"
+            class="btn btn-primary btn-lg fw-bold mt-4 mb-2"
+            href="https://www.eventbrite.com/e/devfest-central-valley-2023-tickets-711779450497?aff=oddtdtcreator"
+          >
+            Register
+          </a>
+          <br />
+          <br />
           <img
             class="devfest-img"
             src="img/devfest1.png"
@@ -79,38 +92,120 @@
         </div>
       </section>
 
-      <section class="keynote text-center" id="keynote">
-        <h2 class="keynote-speaker-title">Keynote Speaker</h2>
-
-        <div class="keynote-speaker-card">
-          <div class="keynote-speaker-img">
-            <img
-              class="keynote-speaker-img"
-              src="img/keynote1.PNG"
-              alt="DevFest Image2"
-            />
+      <section class="speakers text-center" id="speakers">
+        <h2 class="mt-2 fw-bold">Keynote Speakers</h2>
+        <div class="speaker-grid">
+          <div class="row row-cols-1 row-cols-md-2 p-2">
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/speakers/keynote-MadonaWambua.png"
+                  class="card-img-top speakerMain-image"
+                  alt="Madona S Wambua"
+                />
+                <div class="keynote-speaker-bar"></div>
+                <div class="card-body">
+                  <h4 class="card-title">Madona S. Wambua</h4>
+                  <p class="card-text">Founder & CTO of Jibu Labs</p>
+                  <p>
+                    <span class="fw-bold">Session Title:</span><br />Intro to
+                    Mobile Development
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="keynote-speaker-bar"></div>
-          <div class="keynote-speaker-text">
-            <h2>Madona S Wambua</h2>
-            <p>
-              Madona S. Wambua is a Founder and CTO of Jibu Labs, an Author, a
-              Keynote Speaker, an Android Expert, and has over a decade in
-              software engineering. She is also a Women Tech Makers Ambassador,
-              http://AnitaB.org Co-Chair. She has worked on consumer-facing
-              applications and built software development kits for developers.
-              In addition to working on the famous Google Glass during her
-              tenure at a startup, she also got to work on interactive Augmented
-              Reality(AR) videos to transform lives through machine learning and
-              computer vision. Also, she was just awarded 100 Technlonogist to
-              watch by Women Who Code.
-            </p>
+          <div class="row row-cols-1 row-cols-md-2 p-2">
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/speakers/keynote-NoelleSilver.png"
+                  class="card-img-top speakerMain-image"
+                  alt="Noelle Silver"
+                />
+                <div class="keynote-speaker-bar"></div>
+                <div class="card-body">
+                  <h4 class="card-title">Noelle Silver</h4>
+                  <p class="card-text">
+                    Global AI Solutions Lead, Generative AI and LLM Industry
+                    Lead | Accenture
+                  </p>
+                  <p>
+                    <span class="fw-bold">Session Title:</span><br />TITLE TBD
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 p-2">
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/speakers/keynote2.png"
+                  class="card-img-top speakerMain-image"
+                  alt="Rabimba Karanjai"
+                />
+                <div class="keynote-speaker-bar"></div>
+                <div class="card-body">
+                  <h4 class="card-title">Rabimba Karanjai</h4>
+                  <p class="card-text">Google Developer Expert</p>
+                  <p>
+                    <span class="fw-bold">Session Title:</span><br />Give your
+                    web apps superpower with Generative AI and Mediapipe
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
-      <section></section>
     </main>
+
+    <div class="gradient-bar"></div>
+
+    <section class="sponsors text-center" id="sponsors">
+      <h2 class="mt-2 fw-bold">Sponsors</h2>
+      <a
+        type="button"
+        class="btn btn-warning fw-bold"
+        href="https://www.amazon.com/hz/wishlist/ls/18C0XPNU9GP7W"
+        target="_blank"
+      >
+        Donate
+      </a>
+
+      <div class="sponsor-grid col-12">
+        <img
+          class="sponsor-image"
+          alt="All-Sponsors"
+          src="img/sponsors/All-Sponsors.png"
+        />
+      </div>
+    </section>
+
+    <div class="gradient-bar"></div>
+
+    <footer>
+      <div>
+        <h5 class="fw-bold">Stay connected with us on social media!</h5>
+        <a
+          href="https://www.linkedin.com/company/women-techmakers-modesto"
+          class="fa fa-linkedin"
+          target="_blank"
+        ></a>
+        <a
+          href="https://www.instagram.com/wtmmodesto/"
+          class="fa fa-instagram"
+          target="_blank"
+        ></a>
+        <a
+          href="https://www.youtube.com/@womentechmakersmodesto9850"
+          class="fa fa-youtube"
+          target="_blank"
+        ></a>
+      </div>
+    </footer>
+
     <script src="index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -118,24 +213,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
-  <footer>
-    <div>
-      <p>Stay Connected With Us On Social Media</p>
-      <a
-        href="https://www.youtube.com/@womentechmakersmodesto9850"
-        class="fa fa-youtube"
-        target="_blank"
-      ></a>
-      <a
-        href="https://www.linkedin.com/company/women-techmakers-modesto"
-        class="fa fa-linkedin"
-        target="_blank"
-      ></a>
-      <a
-        href="https://www.instagram.com/wtmmodesto/"
-        class="fa fa-instagram"
-        target="_blank"
-      ></a>
-    </div>
-  </footer>
 </html>
