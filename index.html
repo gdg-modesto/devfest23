@@ -79,11 +79,21 @@
 
     <main>
       <section>
-        <img
-          class="devfest-banner img-fluid"
-          src="img/DF23-WebHeader-2650-Blue.jpg"
-          alt="DevFest Banner"
-        />
+        <picture>
+          <source
+            media="(max-width: 640px)"
+            srcset="img/DF23-WebHeader-640-Blue.jpg" />
+          <source
+            media="(min-width: 641px) and (max-width: 1199px)"
+            srcset="img/DF23-WebHeader-1440-Blue.jpg" />
+          <source
+            media="(min-width: 1200px)"
+            srcset="img/DF23-WebHeader-2650-Blue.jpg" />
+          <img
+            class="devfest-banner img-fluid"
+            src="img/DF23-WebHeader-2650-Blue.jpg"
+            alt="DevFest Banner"
+        /></picture>
       </section>
 
       <section class="info" id="info">
