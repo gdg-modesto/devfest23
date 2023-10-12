@@ -13,26 +13,19 @@
 
 /*NavBar*/
 .navbar {
-  background-color: white;
+  background-color: black;
 }
 .brand {
-  /* width: 85px;
-  height: 19px; */
-  
-  width: 150px;
+  width: 100px;
   flex-shrink: 0;
 }
 
 
 /*Info Section*/
 .info {
-  background: linear-gradient(136deg, #000 45.86%, rgba(0, 0, 0, 0.00) 100.29%);
-  color: white;
+  /* background: linear-gradient(136deg, #000 45.86%, rgba(0, 0, 0, 0.00) 100.29%);
+  color: white; */
   padding: 2%;
-}
-.devfest-img {
-  width: 200px;
-  height: 100px;
 }
 
 
@@ -158,9 +151,6 @@ footer {
 
 /*Media Queries*/
 @media (max-width: 576px) {
-  .brand {
-    width: 100px;
-  }
   .sponsor-image {
     width: 95%;
   }
