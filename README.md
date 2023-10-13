@@ -1,6 +1,8 @@
 # devfest23
-GDG Modesto DevFest 2023 Website
+DevFest Central Valley 2023
 
+GDG Modesto
+https://gdg.community.dev/events/details/google-gdg-modesto-presents-devfest-central-valley-2023/cohost-gdg-modesto 
 
-Mid-Fi design on figma
-https://www.figma.com/file/1koMN4cMhoNBg8uw14pvPm/GDG-Devfest-website?type=design&node-id=72-41&mode=design&t=d7AwUxvAUPm4d5Ox-0 
+Eventbrite Registration
+https://www.eventbrite.com/e/devfest-central-valley-2023-tickets-711779450497
