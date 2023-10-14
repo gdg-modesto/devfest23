@@ -29,104 +29,64 @@
 }
 
 
-/*Keynote Speaker Section*/
+/*Speakers Page*/
 .speakers {
   background: linear-gradient(to top left, #f9ab00, rgba(255, 153, 150, 0), #ea4335), linear-gradient(to top right, #4285f4, rgba(255, 153, 150, 0), #34a853);
 }
-.speaker-grid {
+.speakerAll-grid {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
 .card {
-  width: 18rem;
+  width: 500px;
   border: none;
+  background: black;
 }
-.speakerMain-image {
-  background-color: #5f6368;
-  height: 248px;
-  width: 18rem;
+.speakerAll-image {
+  border-radius: 5px 0 0 5px;
+  height: 167px;
+  width: 167px;
   object-fit: cover;
   object-position: center top
-}
-.keynote-speaker-bar {
-  background: #f9ab00;
-  width: 18rem;
-  height: 8px;
-  padding: 0;
-}
-.card-body { 
-  height: 200px;
-  width: 18rem;
-  background: #fde293;
 }
 .card-title {
   font-weight: bold;
 }
-
-
-/*About Section*/
-.about-grid {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
+.card-subtitle {
+  margin-bottom: 5px;
 }
-.about-image {
-  background-color: #5f6368;
-  height: 248px;
-  width: 18rem;
-  object-fit: cover;
-  object-position: center top
+.card-body {
+  color: white;
+  padding-bottom: 0;
 }
-.about-bar-green {
-  background: #34a853;
-  width: 18rem;
-  height: 8px;
-  padding: 0;
+.card-text {
+  font-size: small;
 }
-.about-green {
-  height: 300px;
-  background: #81c995;
+.badge {
+  margin: 1px;
 }
-.about-bar-blue {
-  background: #4285f4;
-  width: 18rem;
-  height: 8px;
-  padding: 0;
+.badge-keynote {
+  background-color: #9E8EEC;
 }
-.about-blue {
-  height: 300px;
-  background: #8ab4f8;
+.badge-workshop {
+  background-color: #167D9A;
 }
-.about-bar-red {
-  background: #ea4335;
-  width: 18rem;
-  height: 8px;
-  padding: 0;
+.badge-AI {
+  background-color: #4F9CFC;
 }
-.about-red {
-  height: 300px;
-  background: #f28b82;
+.badge-dataAI {
+  background-color: #CBE0FE;
 }
-.about-bar-yellow {
-  background: #f9ab00;
-  width: 18rem;
-  height: 8px;
-  padding: 0;
+.badge-webSec {
+  background-color: #966F14;
 }
-.about-yellow {
-  height: 300px;
-  background: #fde293;
+.badge-mjc {
+  background-color: #94C853;
 }
-
-
-/*Sponsors Section*/
-.sponsor-grid {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+.badge-DN {
+  background-color: #18845C;
 }
 
 
@@ -167,8 +127,14 @@ footer {
 
 /*Media Queries*/
 @media (max-width: 576px) {
-  .sponsor-image {
-    width: 95%;
+  .card-title {
+    font-weight: bold;
+    font-size: medium;
+  }
+  .card-subtitle {
+    margin-bottom: 5px;
+    font-size: small;
+    font-weight: bold;
   }
   .fa {
     padding: 10px;
