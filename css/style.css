@@ -121,6 +121,11 @@
   background: #fde293;
 }
 
+/*Support Section*/
+.support {
+  scroll-margin-top: 125px;
+}
+
 
 /*Sponsors Section*/
 .sponsor-grid {
