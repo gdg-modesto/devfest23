@@ -79,7 +79,7 @@
 .badge-dataAI {
   background-color: #CBE0FE;
 }
-.badge-webSec {
+.badge-web {
   background-color: #966F14;
 }
 .badge-mjc {
@@ -90,6 +90,12 @@
 }
 .badge-EGWC {
   background-color: #C4EDFA;
+}
+.badge-engagement {
+  background-color: #5E4DB2;
+}
+.badge-device {
+  background-color: #67C3DF;
 }
 
 
