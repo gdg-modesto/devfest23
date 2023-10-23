@@ -49,7 +49,8 @@
   height: 167px;
   width: 167px;
   object-fit: cover;
-  object-position: center top
+  object-position: center top;
+  background-color: white;
 }
 .card-title {
   font-weight: bold;
@@ -99,6 +100,9 @@
 }
 .badge-SCOE {
   background-color: #F9E6A4;
+}
+.badge-BVT {
+  background-color: orange;
 }
 
 
